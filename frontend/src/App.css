@@ -1,0 +1,99 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:50px;
+}
+.tab
+{
+  padding:50px;
+ 
+}
+.sel
+{width:270px;
+  padding:12px;
+  margin:10px;
+  border-radius: 15px;
+  border-color: purple;
+  background: rgba(255, 255, 255, 0.968);
+  color: black;
+}
+.in
+{width:250px;
+  padding:12px;
+  margin:10px;
+  border-radius: 15px;
+  border-color: purple;
+  background: rgba(255, 255, 255, 0.968);
+  color: black;
+}
+input:focus
+{
+  outline: none;
+}
+
+.page
+{
+  background: rgba(232, 175, 231, 0.15);
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: rgb(26, 26, 26);
+  border-radius: 30px;
+}
+.btn
+{
+  width:250px;
+  padding:12px;
+  margin:10px;
+  border-radius: 15px;
+  border-color: purple;
+  background: rgba(255, 255, 255, 0.968);
+  color: black;
+}
+.btn:focus
+{
+  border-color: rgb(245, 89, 245);
+  box-shadow: 1px 2px 2px purple;
+}
+.txtbx
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:50px;
+}
